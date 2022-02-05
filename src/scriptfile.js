@@ -1,18 +1,8 @@
-let myGlobal = 10;
-
-function fun1() {
+function myLocalScope() {
+    'use strict';
   
-  oopsGlobal = 5;
-}
-
-
-function fun2() {
-  var output = "";
-  if (typeof myGlobal != "undefined") {
-    output += "myGlobal: " + myGlobal;
+    var myVar = "Hello";
+  
+    console.log(myVar);
   }
-  if (typeof oopsGlobal != "undefined") {
-    output += " oopsGlobal: " + oopsGlobal;
-  }
-  console.log(output);
-}
+  myLocalScope();
