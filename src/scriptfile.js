@@ -1,1 +1,1 @@
-const myArray = ['name', 35];
+const myArray = [['animals',34], ['hourse' ,43]];
