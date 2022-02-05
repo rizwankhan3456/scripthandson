@@ -1,13 +1,12 @@
+var sum = 0;
 
-var outerWear = "T-Shirt";
-
-function myOutfit() {
-  
-
-  var outerWear = "sweater";
-
-
-  return outerWear;
+function addThree() {
+  sum = sum + 3;
 }
 
-myOutfit();
+function addFive() {
+  sum = sum + 5;
+}
+
+addThree();
+addFive();
