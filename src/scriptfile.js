@@ -1,3 +1,7 @@
   
+// Setup
+var a;
 
-var myName;
+// Only change code below this line
+
+a = 7;
