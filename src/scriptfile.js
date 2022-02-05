@@ -1,8 +1,18 @@
-function minusSeven(num) {
-    return num - 7;
-  }
-  function timesFive(num) {
-    return num * 5;
-  }
+let myGlobal = 10;
+
+function fun1() {
   
-  var answer = timesFive(5);
+  oopsGlobal = 5;
+}
+
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
