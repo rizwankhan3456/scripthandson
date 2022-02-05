@@ -1,2 +1,2 @@
-let myVar = 11;
-myVar = --myVar;
+const ourDecimal = 5.7;
+const  myDecimal = 5.7;
