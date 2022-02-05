@@ -1,1 +1,3 @@
-const myArray = [['animals',34], ['hourse' ,43]];
+const myArray = [50, 60, 70];
+myArray[0]; 
+const myData = myArray[0];
