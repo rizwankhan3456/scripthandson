@@ -1,3 +1,2 @@
-const myArray = [50, 60, 70];
-myArray[0]; 
-const myData = myArray[0];
+const myArray = [18, 64, 99];
+myArray[0] = 45;
