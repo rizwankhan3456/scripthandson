@@ -1,5 +1,1 @@
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly";
-const wordBlanks =  "My " + myNoun + " is " + myAdjective + " and " + myVerb + " " + myAdverb + "!";
+const myArray = ['name', 35];
