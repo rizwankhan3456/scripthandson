@@ -1,15 +1,16 @@
-var changed = 0;
+function nextInLine(arr, item) {
 
-function change(num) {
-  return (num + 5) / 3;
-}
-
-changed = change(10);
-
-var processed = 0;
-
-function processArg(num) {
-  return (num + 3) / 5;
-}
-processed = processArg(7);
-
+    var queue = arr.push(item);
+  
+    var removeItem = arr.shift();
+  
+    return removeItem;  
+  }
+  
+  
+  var testArr = [1,2,3,4,5];
+  
+  
+  console.log("Before: " + JSON.stringify(testArr));
+  console.log(nextInLine(testArr, 6));  
+  console.log("After: " + JSON.stringify(testArr));
