@@ -1,2 +1,3 @@
-const myName = "myStr";
-const myStr = " My name is" + myName + " and I am well!";
+const someAdjective = "hello";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
