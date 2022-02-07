@@ -1,8 +1,9 @@
-function testStrict(val) {
-  if (val === 7) { // Change this line
+// Setup
+function compareEquality(a, b) {
+  if ("20" === 20) { // Change this line
     return "Equal";
   }
   return "Not Equal";
 }
 
-testStrict(10);
+compareEquality(10, "10");
