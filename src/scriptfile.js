@@ -1,17 +1,8 @@
-function ourFunction(isItTrue) {
-    if (isItTrue) { 
-      return "Yes, that was true";
-    }
-    return "No, that was false";
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
   }
-  
-  function trueOrFalse(wasThatTrue) {
-  
-  if (wasThatTrue) { 
-    return " Yes, that was true";
-  }
-  
-    return "No, that was false";
-  }
-   
-  trueOrFalse(true);
+  return "Not Equal";
+}
+
+testEqual(10);
