@@ -1,9 +1,9 @@
-// Setup
-function compareEquality(a, b) {
-  if ("20" === 20) { // Change this line
-    return "Equal";
+
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
   }
-  return "Not Equal";
+  return "Equal";
 }
 
-compareEquality(10, "10");
+testNotEqual(10);
